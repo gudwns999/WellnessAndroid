@@ -1,0 +1,39 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="wrap_content">
+    <RelativeLayout
+        android:layout_margin="40px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+<ImageView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:id="@+id/welllist_img"
+    android:src="@drawable/bench"/>
+<TextView
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content"
+    android:text="운동이름"
+    android:layout_alignParentTop="true"
+    android:layout_toRightOf="@+id/welllist_img"
+    android:layout_toEndOf="@+id/welllist_img"
+    android:id="@+id/textView3" />
+
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="사용하기"
+            android:layout_below="@+id/textView3"
+            android:layout_toRightOf="@+id/welllist_img"
+            android:layout_toEndOf="@+id/welllist_img"
+            android:id="@+id/button" />
+        <Button
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="예약하기"
+            android:layout_alignTop="@+id/button"
+            android:layout_toRightOf="@+id/button"
+            android:layout_toEndOf="@+id/button" />
+    </RelativeLayout>
+</LinearLayout>

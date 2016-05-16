@@ -1,0 +1,60 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal"
+    android:layout_marginLeft="50px"    android:layout_marginRight="50px">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="웰니스"/>
+    <EditText
+        android:layout_marginTop="60px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LID_Edit"
+        android:hint="ID"/>
+    <EditText
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/LPW_Edit"
+        android:hint="PW"/>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/login_Btn"
+        android:text="로그인"
+        android:background="@color/orange"/>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginKakao_Btn"
+        android:text="카카오톡 로그인"
+        android:background="@color/orange"/>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/loginFacebook_Btn"
+        android:text="페이스북 로그인"
+        android:background="@color/orange"/>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/regist_Btn"
+        android:text="회원가입"
+        android:background="@color/orange"/>
+
+    <TextView
+        android:layout_marginTop="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/response_Txt"
+        android:text="-서버 응답-"/>
+
+</LinearLayout>

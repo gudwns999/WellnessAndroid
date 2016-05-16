@@ -1,0 +1,76 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_vertical|center_horizontal"
+    android:layout_marginLeft="100px"    android:layout_marginRight="100px">
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:textSize="50px"
+        android:text="회원가입"/>
+    <EditText
+        android:layout_marginTop="60px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/IDRegist_Edit"
+        android:hint="ID를 입력하시오."/>
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PWRegist_Edit"
+        android:hint="PW를 입력하시오"/>
+    <EditText
+        android:inputType="textPassword"
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/PWRegistConfirm_Edit"
+        android:hint="PW를 다시 입력"/>
+    <RadioGroup
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content">
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <TextView
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:text="성별: "
+                android:textSize="40px"/>
+            <RelativeLayout
+                android:layout_width="match_parent"
+                android:layout_height="wrap_content">
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/man_RadioBtn"
+                android:text="남"/>
+            <RadioButton
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:id="@+id/woman_RadioBtn"
+                android:text="여"
+                android:layout_alignParentTop="true"
+                android:layout_alignParentRight="true"
+                android:layout_alignParentEnd="true" />
+            </RelativeLayout>
+        </LinearLayout>
+    </RadioGroup>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:id="@+id/registRegist_Btn"
+        android:text="회원가입"
+        android:background="@color/grey"/>
+    <TextView
+        android:layout_marginTop="40px"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:id="@+id/responseRegist_Txt"
+        android:text="-서버 응답-"/>
+</LinearLayout>

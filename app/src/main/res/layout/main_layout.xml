@@ -1,0 +1,34 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    android:orientation="vertical" android:layout_width="match_parent"
+    android:layout_height="match_parent" android:gravity="center_vertical"
+    android:padding="40px">
+
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="SNS"
+        android:textSize="100px"
+        android:background="@color/orange"
+        android:id="@+id/mainSNS_Btn"/>
+    <WebView
+        android:id="@+id/mainWebView_view"
+        android:layout_width="match_parent"
+        android:layout_height="500px"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentTop="true" />
+    <Button
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="운동 시작"
+        android:textSize="100px"
+        android:background="@color/orange"
+
+        android:id="@+id/mainWell_Btn"/>
+    <Button
+        android:layout_marginTop="30px"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:text="만든 사람 소개"
+        android:id="@+id/mainHJ_Btn"/>
+</LinearLayout>

@@ -1,0 +1,33 @@
+<?xml version="1.0" encoding="utf-8"?>
+<manifest xmlns:android="http://schemas.android.com/apk/res/android"
+    package="gudwns999.com.wellnessandroid">
+
+    <application
+        android:allowBackup="true"
+        android:icon="@mipmap/ic_launcher"
+        android:label="@string/app_name"
+        android:supportsRtl="true"
+        android:theme="@style/AppTheme">
+        <activity android:name=".Splash">
+            <intent-filter>
+                <action android:name="android.intent.action.MAIN" />
+
+                <category android:name="android.intent.category.LAUNCHER" />
+            </intent-filter>
+        </activity>
+        <activity android:name=".Main"></activity>
+        <!--Login-->
+        <activity android:name=".Login.Login"></activity>
+        <activity android:name=".Login.Regist"></activity>
+        <!--SNS-->
+        <activity android:name=".SNS.SNS"></activity>
+        <activity android:name=".SNS.Chat"></activity>
+        <activity android:name=".SNS.HealthRoutine"></activity>
+        <activity android:name=".SNS.FoodRoutine"></activity>
+        <activity android:name=".SNS.WellLog"></activity>
+        <activity android:name=".SNS.SNSMain"></activity>
+        <!--Wellness-->
+        <activity android:name=".Wellness.WellnessMain"></activity>
+    </application>
+
+</manifest>
